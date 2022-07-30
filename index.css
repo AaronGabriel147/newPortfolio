@@ -1,11 +1,11 @@
+/* .curlies {
+    font-family: ibm;
+    font-size: 22rem;
+    margin-bottom: 35rem;
+} */
 @font-face {
     font-family: 'ibm plex regular';
     src: url(IBMPLEXMONO-REGULAR.TTF);
-}
-
-@font-face {
-    font-family: 'tisk';
-    src: url(TISK.TTF);
 }
 
 @font-face {
@@ -23,8 +23,6 @@
     src: url(ibm.otf);
 }
 
-
-
 body {
     background-color: rgb(15, 13, 29);
 }
@@ -37,10 +35,38 @@ body {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+    min-width: 300px;
+    min-height: 300px;
 }
 
 
-/* ********************************* */
+/* ***********TEXT************ */
+
+
+.header {
+    z-index: 10;
+    position: absolute;
+    min-width: 300px;
+}
+
+h1 {
+    color: rgb(195, 249, 255);
+    font-family: dustries;
+    font-size: 500%;
+    text-shadow: 2px 7px 5px rgb(0, 0, 0),
+        0px -4px 10px rgb(15, 15, 15);
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+
+
+/* ___________background____________ */
+
+
 
 
 .video-header-container {
@@ -48,60 +74,27 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    /* min-width: 400px; */
 }
 
 .video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* overflow: hidden; */
-    /* z-index: 10; */
-}
-
-.header {
-    z-index: 10;
-    /* position: relative; */
-    /* margin-bottom: 40rem; */
-}
-
-h1 {
-    font-family: dustries;
-    font-size: 8rem;
-    font-weight: 100;
-    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.925),
-        0px -4px 10px rgb(15, 15, 15);
-}
-
-h2 {
-    /* font-family: roboto;Enter */
-    font-size: 3rem;
-    /* text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.925),
-        0px -4px 10px rgb(15, 15, 15); */
-}
-
-.curlies {
-    font-family: ibm;
-    font-size: 22rem;
-    margin-bottom: 35rem;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%; */
+    height: 100vh;
+    overflow: hidden;
 }
 
 .video-header-container video {
-    /* min-width: 100%;
-    min-height: 100%; */
+    min-width: 100%;
+    min-height: 100%;
     object-fit: cover;
-
-
-    position: absolute;
-    height: 100%;
-    width: 100%;
     top: 0;
     left: 0;
+    /* transform: translate(-50%, -50%); */
 }
 
 
@@ -111,10 +104,5 @@ h2 {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.623);
-    /* color: white; */
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center;
-    flex-direction: column; */
+    background: rgba(27, 0, 50, 0.849);
 }
