@@ -25,7 +25,7 @@
 
 /* ___ Scroll bar ___ */
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 1rem;
 }
 
@@ -42,12 +42,10 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #ffffff;
-}
+} */
 
 
 /* ___ Fonts ___ */
-
-
 @font-face {
     font-family: 'ibm';
     src: url(IBMPLEXMONO-REGULAR.TTF);
@@ -99,7 +97,7 @@ h1 {
     text-shadow: 4px 4px 3px rgb(0, 0, 0);
 }
 
-/* ___ Background ___ */
+/* ___ Home Background ___ */
 
 .video-header-container {
     position: relative;
