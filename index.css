@@ -1,3 +1,5 @@
+/* ___ Waves ___ */
+
 .custom-shape-divider-bottom-1659219265 {
     position: absolute;
     bottom: 0;
@@ -149,7 +151,7 @@ h1 {
 
 .gif {
     border: rgb(0, 0, 0) solid 2px;
-    /* position: relative; */
+    position: relative;
     width: 45%;
     object-fit: cover;
     margin: 2rem;
@@ -161,6 +163,7 @@ h1 {
 /* ___ Mobile GIF's ___ */
 @media only screen and (max-width: 900px) {
     .gif-cont {
+        position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -168,14 +171,13 @@ h1 {
     }
 
     .gif {
+        position: relative;
         width: 100%;
         margin: 1rem;
         width: 100%;
         border-radius: 0px;
     }
 }
-
-
 
 
 /* ____ Titles ____ */
@@ -196,10 +198,3 @@ h2 {
     font-size: 250%;
     letter-spacing: .8rem;
 }
-
-
-/* .curlies {
-    font-family: ibm;
-    font-size: 22rem;
-    margin-bottom: 35rem;
-} */
