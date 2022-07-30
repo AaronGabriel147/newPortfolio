@@ -5,14 +5,14 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    /* overflow: hidden; */
-    /* line-height: 0; */
+    overflow: hidden;
+    line-height: 0;
     transform: rotate(180deg);
 }
 
 .custom-shape-divider-bottom-1659219265 svg {
-    /* position: relative; */
-    /* display: block; */
+    position: relative;
+    display: block;
     width: calc(100% + 1.3px);
     height: 93px;
 }
@@ -98,7 +98,7 @@ h1 {
 /* ___ Home Background ___ */
 
 .video-header-container {
-    position: relative;
+    /* position: relative; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -106,11 +106,11 @@ h1 {
 }
 
 .video {
-    position: absolute;
+    /* position: absolute; */
     height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
+    /* width: 100%; */
+    /* top: 0; */
+    /* left: 0; */
     overflow: hidden;
 }
 
@@ -130,6 +130,7 @@ h1 {
     top: 0;
     left: 0;
     background: rgba(66, 51, 144, 0.517);
+    overflow: hidden;
 }
 
 
