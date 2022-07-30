@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'ibm plex regular';
+    font-family: 'ibm';
     src: url(IBMPLEXMONO-REGULAR.TTF);
 }
 
@@ -13,10 +13,7 @@
     src: url(dinn.ttf);
 }
 
-@font-face {
-    font-family: 'ibm';
-    src: url(ibm.otf);
-}
+
 
 body {
     background-color: rgb(0, 0, 0);
@@ -88,7 +85,7 @@ h1 {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(26, 19, 61, 0.43);
+    background: rgba(26, 19, 61, 0.967);
 }
 
 
