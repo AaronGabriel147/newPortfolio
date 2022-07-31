@@ -5,6 +5,8 @@
 /* radial-gradient */
 
 /* ___ Fonts ___ */
+
+
 @font-face {
     font-family: 'ibm';
     src: url(IBMPLEXMONO-REGULAR.TTF);
@@ -21,7 +23,9 @@
 }
 
 body {
-    background-color: #911afa;
+    /* background-color: #911afa; */
+    background-color: #4359f3;
+
 }
 
 * {
@@ -33,37 +37,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-/* __ Haikei Wave ___ */
-
-svg {
-    /* border: solid rgb(0, 253, 0); */
-    position: absolute;
-    bottom: -150px;
-    left: 0;
-    width: 100%;
-    min-width: 1300px;
-    object-fit: cover;
-    fill: #911afa;
-    /* background-image: linear-gradient(to bottom right, red, yellow) */
-}
-
-/* mobile - 700px and lower* */
-@media only screen and (max-width: 800px) {
-    svg {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        min-width: 100%;
-        object-fit: cover;
-        max-height: 1200px;
-    }
-}
-
-
 
 /* ___ Scroll bar ___ */
 
@@ -88,25 +61,119 @@ svg {
 
 
 
+/* Univerals above */
+
+
+/* __ Haikei Wave ___ */
+
+svg {
+    /* border: solid rgb(0, 253, 0); */
+    position: absolute;
+    /* bottom: -150px; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1300px;
+    object-fit: cover;
+    fill: #911afa;
+    /* background-image: linear-gradient(to bottom right, red, yellow) */
+}
+
+/* Multi-wave */
+
+/* new one */
+/* .svg-cont {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-waves {
+    width: 100%;
+    border: solid red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-width: 1300px;
+} */
+
+
+
+/* 800px and lower* */
+@media only screen and (max-width: 800px) {
+    svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        min-width: 100%;
+        object-fit: cover;
+        max-height: 1200px;
+    }
+}
+
+
+
+
+
+
 
 /* @media only screen and (min-width: 400px) { */
 
 /* ___ Text ___ */
 .header {
+    /* border: solid red; */
     position: absolute;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100%
 }
 
 h1 {
-    font-family: dustries;
-    font-size: 500%;
+    /* border: solid; */
+    /* font-family: dustries;
+    font-size: 10rem;
     letter-spacing: .3rem;
     color: rgb(243, 254, 255);
     text-shadow: 4px 4px 3px rgb(0, 0, 0);
+    width: 100%; */
+    position: relative;
+    display: flex;
+    font-family: helvetica;
+    word-spacing: 1rem;
+    letter-spacing: 0.05em;
+    font-size: 10rem;
+    margin: 1.5rem;
+    background: linear-gradient(1000deg, #ffffffc0 0.03%, #ffffffba 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* transform: rotate(-5deg); */
+    /* text-shadow: 0 0 1rem rgba(255, 254, 254, 0.345); */
+
 }
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        position: relative;
+        display: flex;
+        font-family: helvetica;
+        word-spacing: 1rem;
+        letter-spacing: 0.05em;
+        font-size: 4rem;
+        background: linear-gradient(1000deg, #ffffffc0 0.03%, #ffffffba 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+
 
 /* ___ Home Background ___ */
 
@@ -153,9 +220,11 @@ h1 {
     position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     width: 100%;
+    min-height: 60rem;
     /* border: #ffffff solid; */
+    margin-bottom: 10rem;
 }
 
 .gif {
@@ -173,9 +242,13 @@ h1 {
 @media only screen and (max-width: 1100px) {
     .gif-cont {
         position: absolute;
+        display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        width: 100%;
+        min-height: 100rem;
+        /* border: solid; */
     }
 
     .gif {
@@ -199,15 +272,6 @@ h1 {
     align-items: center;
 }
 
-/* works */
-/* .titles {
-    margin: 5rem; 
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-} */
-
 h2 {
     display: flex;
     align-items: center;
@@ -217,17 +281,8 @@ h2 {
     letter-spacing: .8rem;
 }
 
-/* works */
-/* h2 {
-    font-family: ibm;
-    color: rgb(0, 0, 0);
-    font-size: 250%;
-    letter-spacing: .8rem;
-} */
-
-
 
 section .gif-cont {
     /* border: solid; */
-    background-image: linear-gradient(to bottom, #911afa, rgba(0, 0, 0, 0.423))
+    background-image: linear-gradient(to bottom, #4359f3, rgb(74, 0, 93))
 }
