@@ -1,5 +1,6 @@
 /* transform: rotate(180deg); */
 /* MY mobile viewport, S20 Ultra 412 x 915  */
+/* but it is showing 830 */
 
 
 /* ___ Waves ___ */
@@ -39,7 +40,7 @@ svg {
 }
 
 /* mobile - 700px and lower* */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
     svg {
         position: absolute;
         bottom: 0;
