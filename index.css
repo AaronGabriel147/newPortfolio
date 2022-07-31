@@ -1,9 +1,10 @@
 /* transform: rotate(180deg); */
+/* MY mobile viewport, S20 Ultra 412 x 915  */
 
 
 /* ___ Waves ___ */
 
-.custom-shape-divider-bottom-1659219265 {
+/* .custom-shape-divider-bottom-1659219265 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -22,7 +23,7 @@
 
 .custom-shape-divider-bottom-1659219265 .shape-fill {
     fill: #911afa;
-}
+} */
 
 
 /* __ Haikei Wave ___ */
@@ -38,7 +39,7 @@ svg {
 }
 
 /* mobile - 700px and lower* */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     svg {
         position: absolute;
         bottom: 0;
