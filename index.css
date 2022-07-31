@@ -22,7 +22,6 @@
 
 body {
     background-color: #911afa;
-    /* background-image: linear-gradient(to bottom right, #911afa, rgba(255, 48, 2, 0.758)) */
 }
 
 * {
@@ -225,3 +224,10 @@ h2 {
     font-size: 250%;
     letter-spacing: .8rem;
 } */
+
+
+
+section .gif-cont {
+    /* border: solid; */
+    background-image: linear-gradient(to bottom, #911afa, rgba(0, 0, 0, 0.423))
+}
