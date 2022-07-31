@@ -1,3 +1,6 @@
+/* transform: rotate(180deg); */
+
+
 /* ___ Waves ___ */
 
 .custom-shape-divider-bottom-1659219265 {
@@ -22,10 +25,46 @@
 }
 
 
+/* __ Haikei Wave ___ */
+/* border: solid green; */
+
+svg {
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    width: 100%;
+    min-width: 1300px;
+    object-fit: cover;
+}
+
+/* mobile - 700px and lower* */
+@media only screen and (max-width: 900px) {
+    svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        min-width: 100%;
+        object-fit: cover;
+        max-height: 1200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ___ Scroll bar ___ */
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 1rem;
 }
 
@@ -42,7 +81,7 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #ffffff;
-} */
+}
 
 
 /* ___ Fonts ___ */
@@ -115,24 +154,15 @@ h1 {
     overflow: hidden;
 }
 
-/* .video-header-container video {
+.video-header-container video {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
     top: 0;
     left: 0;
-} */
-
-video {
-    /* position: relative;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0; */
-    height: 100vh;
-    overflow: hidden;
-    object-fit: cover;
 }
+
+
 
 .overlay {
     position: absolute;
