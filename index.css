@@ -109,7 +109,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    transform: perspective(300px) rotateX(-9deg) skew(-10deg, 1.2deg);
+    transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
 }
 
 @media only screen and (max-width: 800px) {
@@ -117,11 +117,11 @@ h1 {
         font-size: 15vw;
         font-family: inter;
         letter-spacing: .03em;
-        background: linear-gradient(1000deg, #ffffffa5 0.03%, #ffffff99 100%);
+        background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        transform: perspective(300px) rotateX(-9deg) skew(-10deg, 1.2deg);
+        transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
     }
 }
 
@@ -220,9 +220,7 @@ h1 {
     margin: 2rem;
     /* border: coral solid 3px; */
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center;
 }
 
 h2 {
@@ -238,4 +236,11 @@ h2 {
 section .gif-cont {
     /* border: solid; */
     background-image: linear-gradient(to bottom, #4001a5, rgb(74, 0, 93))
+}
+
+.audio-cont {
+    margin: 4rem;
+    /* border: coral solid 3px; */
+    display: flex;
+    justify-content: center;
 }
