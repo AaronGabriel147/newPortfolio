@@ -14,6 +14,11 @@
     src: url(/Fonts/IBMPLEXMONO-REGULAR.TTF);
 }
 
+@font-face {
+    font-family: 'inter';
+    src: url(/Fonts/inter.ttf);
+}
+
 body {
     background-color: #4001a5;
 }
@@ -97,7 +102,7 @@ svg {
 h1 {
     text-align: center;
     font-size: 7vw;
-    font-family: 'Helevetica Neue', sans-serif;
+    font-family: inter;
     letter-spacing: 0.05em;
     margin-bottom: 9rem;
     background: linear-gradient(1000deg, #ffffff6f 0.03%, #ffffff99 100%);
@@ -110,7 +115,7 @@ h1 {
 @media only screen and (max-width: 800px) {
     h1 {
         font-size: 15vw;
-        font-family: helvetica;
+        font-family: inter;
         letter-spacing: .03em;
         background: linear-gradient(1000deg, #ffffffa5 0.03%, #ffffff99 100%);
         -webkit-background-clip: text;
