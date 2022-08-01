@@ -3,6 +3,9 @@
 /* but it is showing 830 */
 /* background-image: linear-gradient(to bottom right, red, yellow);
 /* radial-gradient */
+/* #4359f3 */
+
+
 
 /* ___ Fonts ___ */
 
@@ -12,9 +15,7 @@
 }
 
 body {
-    /* background-color: #911afa; */
-    background-color: #4359f3;
-
+    background-color: #4001a5;
 }
 
 * {
@@ -48,11 +49,6 @@ body {
     background-color: #ffffff;
 }
 
-
-
-/* Univerals above */
-
-
 /* __ Haikei Wave ___ */
 
 svg {
@@ -69,7 +65,7 @@ svg {
 }
 
 
-/* 800px and lower* */
+/* SVG 800px and lower* */
 @media only screen and (max-width: 800px) {
     svg {
         position: absolute;
@@ -129,7 +125,7 @@ h1 {
 /* ___ Home Background ___ */
 
 .video-header-container {
-    /* position: relative; */
+    position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -138,7 +134,7 @@ h1 {
 }
 
 .video {
-    /* position: absolute; */
+    position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
@@ -153,6 +149,7 @@ h1 {
     top: 0;
     left: 0;
 }
+
 
 .overlay {
     position: absolute;
@@ -227,7 +224,7 @@ h2 {
     display: flex;
     align-items: center;
     font-family: ibm;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 330%;
     letter-spacing: .8rem;
 }
@@ -235,5 +232,5 @@ h2 {
 
 section .gif-cont {
     /* border: solid; */
-    background-image: linear-gradient(to bottom, #4359f3, rgb(74, 0, 93))
+    background-image: linear-gradient(to bottom, #4001a5, rgb(74, 0, 93))
 }
