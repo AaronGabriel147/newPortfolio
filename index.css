@@ -218,12 +218,12 @@ h1 {
 /* ______GIF's_______ */
 
 .gif-cont {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     justify-content: center;
-    align-items: baseline;
     width: 100%;
-    min-height: 60rem;
+    /* align-items: baseline; */
+    /* min-height: 60rem; */
     /* border: #ffffff solid; */
     margin-bottom: 10rem;
 }
@@ -232,7 +232,7 @@ h1 {
     border: rgb(0, 0, 0) solid 2px;
     position: relative;
     /* width: 45%; */
-    width: 100%;
+    /* width: 100%; */
     object-fit: cover;
     margin: 2rem;
     border-radius: 9px;
@@ -241,8 +241,8 @@ h1 {
 }
 
 /* ___ Mobile GIF's (was 900px last time i verified that it worked___ */
-@media only screen and (max-width: 1100px) {
-    .gif-cont {
+/* @media only screen and (max-width: 1100px) { */
+/* .gif-cont {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -250,7 +250,6 @@ h1 {
         align-items: center;
         width: 100%;
         min-height: 100rem;
-        /* border: solid; */
     }
 
     .gif {
@@ -259,8 +258,8 @@ h1 {
         width: 100%;
         margin: 1rem;
         border-radius: 0px;
-    }
-}
+    } */
+/* } */
 
 
 /* ____ Titles ____ */
@@ -277,7 +276,7 @@ h1 {
 
 section .gif-cont {
     /* border: solid; */
-    background-image: linear-gradient(to bottom, #4001a5, rgb(74, 0, 93))
+    /* background-image: linear-gradient(to bottom, #4001a5, rgb(74, 0, 93)) */
 }
 
 .audio-cont {
