@@ -33,6 +33,32 @@ body {
     padding: 0;
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+    font-family: ibm;
+    color: rgb(255, 255, 255);
+    /* font-size: 330%; */
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.p-cont {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* @media only screen and (max-width: 800px) {
+
+} */
+
+
+
 /* ___ Scroll bar ___ */
 
 ::-webkit-scrollbar {
@@ -81,6 +107,26 @@ svg {
         min-width: 100%;
         object-fit: cover;
         max-height: 1200px;
+    }
+
+    h2 {
+        display: flex;
+        align-items: center;
+        font-family: ibm;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h2 {
+        display: flex;
+        align-items: center;
+        font-family: ibm;
+        color: rgb(255, 255, 255);
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
     }
 }
 
@@ -183,12 +229,13 @@ h1 {
 .gif {
     border: rgb(0, 0, 0) solid 2px;
     position: relative;
-    width: 45%;
+    /* width: 45%; */
+    width: 100%;
     object-fit: cover;
     margin: 2rem;
     border-radius: 9px;
-    max-width: 800px;
-    max-height: 600px;
+    /* max-width: 800px; */
+    /* max-height: 600px; */
 }
 
 /* ___ Mobile GIF's (was 900px last time i verified that it worked___ */
@@ -223,14 +270,7 @@ h1 {
     justify-content: center;
 }
 
-h2 {
-    display: flex;
-    align-items: center;
-    font-family: ibm;
-    color: rgb(255, 255, 255);
-    font-size: 330%;
-    letter-spacing: .8rem;
-}
+
 
 
 section .gif-cont {
