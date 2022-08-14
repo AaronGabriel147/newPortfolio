@@ -19,6 +19,18 @@
     src: url(/Fonts/inter.ttf);
 }
 
+
+
+@font-face {
+    font-family: 'ibmITALIC';
+    src: url(/Fonts/IBMPLEXMONO-ITALIC.ttf);
+}
+
+@font-face {
+    font-family: 'ibmTHIN';
+    src: url(/Fonts/IBMPLEXMONO-EXTRALIGHT.ttf);
+}
+
 body {
     /* background-color: #4001a5; */
     /* background-color: #ffffff; */
@@ -36,6 +48,11 @@ body {
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+}
+
+
+a {
+    text-decoration: none;
 }
 
 h2 {
@@ -295,7 +312,7 @@ audio {
 
 .italic {
     font-style: italic;
-    font-family: Helvetica, sans-serif;
+    font-family: ibmITALIC;
 }
 
 .green {
@@ -381,4 +398,11 @@ h2 {
     font-family: ibm;
     font-size: 2.1rem;
     letter-spacing: .1rem;
+}
+
+.thin {
+    font-family: inter;
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+    color: rgb(224, 224, 255);
 }
