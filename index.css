@@ -20,7 +20,10 @@
 }
 
 body {
-    background-color: #4001a5;
+    /* background-color: #4001a5; */
+    /* background-color: #ffffff; */
+    background: linear-gradient(#6600FF, #43007e);
+    /* background: radial-gradient(#6600FF, #5600d7); */
 }
 
 * {
@@ -44,24 +47,33 @@ h2 {
 
 p {
     font-family: inter;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 1rem;
     line-height: 1.3;
+    padding-top: 2rem;
 }
 
 .p-cont {
-    max-width: 700px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
 .p-cont2 {
-    max-width: 700px;
+    max-width: 850px;
     margin: 0 auto;
-    /* margin-top: -3rem; */
+    /* margin-top: -1.5rem; */
+    /* border: solid; */
+    /* background-color: #6600ff00; */
 }
 
+/* .bg-wave { */
+/* background-color: #6600FF; */
+/* background: linear-gradient(#6600FF, #000000); */
+/* border: #ff0000; */
+/* } */
 
-/* ___ Scroll bar ___ */
+
+
 
 ::-webkit-scrollbar {
     width: 1rem;
@@ -81,22 +93,6 @@ p {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #ffffff;
 }
-
-/* __ Haikei Wave ___ */
-
-svg {
-    /* border: solid rgb(0, 253, 0); */
-    position: absolute;
-    /* bottom: -150px; */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    min-width: 1300px;
-    object-fit: cover;
-    fill: #911afa;
-    /* background-image: linear-gradient(to bottom right, red, yellow) */
-}
-
 
 
 
@@ -151,23 +147,12 @@ h1 {
 }
 
 
-svg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    min-width: 100%;
-    object-fit: cover;
-    max-height: 1200px;
-}
-
 h2 {
     display: flex;
     align-items: center;
     font-family: ibm;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     /* letter-spacing: .1rem; */
 }
 
@@ -176,8 +161,6 @@ h1 {
     /* border: solid; */
     font-size: 5vw;
 }
-
-
 
 
 
@@ -314,10 +297,8 @@ audio {
 }
 
 .blue {
-    color: rgb(48, 48, 255);
+    color: rgb(0, 255, 238);
     font-family: inter;
-    stroke: #ffffff;
-
 }
 
 .orange {
@@ -351,4 +332,37 @@ audio {
         height: 1.5rem;
         width: 7rem
     }
+}
+
+
+.link-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid; */
+}
+
+.water-plants-title h2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+h2 {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.projects {
+    font-family: ibm;
+    font-size: 2.1rem;
+    letter-spacing: .1rem;
 }
