@@ -22,7 +22,9 @@
 body {
     /* background-color: #4001a5; */
     /* background-color: #ffffff; */
-    background: linear-gradient(#6600FF, #43007e);
+    /* background: linear-gradient(#6600FF, #43007e); */
+    background: linear-gradient(#43007e, #007e13);
+
     /* background: radial-gradient(#6600FF, #5600d7); */
 }
 
@@ -160,6 +162,13 @@ h1 {
     /* color: red; */
     /* border: solid; */
     font-size: 5vw;
+    font-family: inter;
+    letter-spacing: .03em;
+    background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
 }
 
 
@@ -319,6 +328,13 @@ audio {
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 12vw;
+        font-family: inter;
+        letter-spacing: .03em;
+        background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
     }
 
     .audio-cont {
