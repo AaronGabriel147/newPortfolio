@@ -288,6 +288,7 @@ h1 {
     /* border: coral solid 3px; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -342,6 +343,20 @@ audio {
 
 
 
+.curly {
+    font-family: ibm;
+    font-size: 3rem;
+    padding-top: 2rem;
+    color: rgb(255, 255, 255)
+}
+
+.projects {
+    font-family: ibm;
+    font-size: 2.1rem;
+    letter-spacing: .1rem;
+}
+
+
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 12vw;
@@ -354,6 +369,12 @@ audio {
         transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
     }
 
+    .projects {
+        font-family: ibm;
+        font-size: 1.9rem;
+        letter-spacing: .1rem;
+    }
+
     .audio-cont {
         margin: .5rem;
         /* border: coral solid 3px; */
@@ -364,6 +385,13 @@ audio {
     audio {
         height: 1.5rem;
         width: 7rem
+    }
+
+    .curly {
+        font-family: ibm;
+        font-size: 2.5rem;
+        padding-top: 2rem;
+        color: rgb(255, 255, 255)
     }
 }
 
@@ -391,18 +419,15 @@ h2 {
     align-items: center;
     padding-top: 2rem;
     font-size: 1.5rem;
+    font-family: ibmITALIC;
 }
 
 
-.projects {
-    font-family: ibm;
-    font-size: 2.1rem;
-    letter-spacing: .1rem;
-}
+
 
 .thin {
     font-family: inter;
     font-size: 1.1rem;
     letter-spacing: .1rem;
-    color: rgb(224, 224, 255);
+    color: rgb(250, 250, 255);
 }
