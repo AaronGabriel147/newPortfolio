@@ -220,7 +220,7 @@ h1 {
     justify-content: center;
     width: 100%;
     /* border: #ffffff solid; */
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 }
 
 .gif {
@@ -273,7 +273,7 @@ section .gif-cont {
 }
 
 .audio-cont {
-    margin: 4rem;
+    margin: 1rem;
     /* border: coral solid 3px; */
     display: flex;
     justify-content: center;
@@ -322,7 +322,7 @@ audio {
     }
 
     .audio-cont {
-        margin: 4rem;
+        margin: .5rem;
         /* border: coral solid 3px; */
         display: flex;
         justify-content: center;
