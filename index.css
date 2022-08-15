@@ -326,7 +326,6 @@ audio {
 
 @media only screen and (max-width: 500px) {
     h1 {
-        word-break: keep-all;
         font-size: 12vw;
         font-family: inter;
         letter-spacing: .03em;
