@@ -19,15 +19,18 @@
     src: url(/Fonts/inter.ttf);
 }
 
-@font-face {
+/* @font-face {
     font-family: 'ibmITALIC';
     src: url(/Fonts/IBMPLEXMONO-ITALIC.ttf);
-}
+} */
 
 @font-face {
     font-family: 'ibmTHIN';
     src: url(/Fonts/IBMPLEXMONO-EXTRALIGHT.ttf);
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,400&display=swap');
 
 
 /* body { */
@@ -277,11 +280,11 @@ audio {
     width: 18rem;
 }
 
-.italic {
-    font-style: italic;
-    font-family: ibmITALIC;
-    /* font-family: 'IBM Plex Mono', monospace; */
-}
+/* .italic { */
+/* font-style: italic; */
+/* font-family: ibmITALIC; */
+/* font-family: 'IBM Plex Mono', monospace; */
+/* } */
 
 .green {
     color: rgb(0, 255, 0);
@@ -327,7 +330,7 @@ audio {
 @media only screen and (max-width: 500px) {
     h1 {
         font-size: 12vw;
-        font-family: ibm;
+        font-family: poppins;
         letter-spacing: .03em;
         background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
         -webkit-background-clip: text;
