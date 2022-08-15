@@ -19,10 +19,10 @@
     src: url(/Fonts/inter.ttf);
 }
 
-/* @font-face {
+@font-face {
     font-family: 'ibmITALIC';
     src: url(/Fonts/IBMPLEXMONO-ITALIC.ttf);
-} */
+}
 
 @font-face {
     font-family: 'ibmTHIN';
@@ -279,8 +279,8 @@ audio {
 
 .italic {
     font-style: italic;
-    /* font-family: ibmITALIC; */
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: ibmITALIC;
+    /* font-family: 'IBM Plex Mono', monospace; */
 }
 
 .green {
