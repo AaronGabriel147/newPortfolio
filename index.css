@@ -19,24 +19,20 @@
     src: url(/Fonts/inter.ttf);
 }
 
-
+/* original that works */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,400&display=swap');
+
 
 
 body {
     background-color: #000000;
-    /* background-color: #4001a5; */
-    /* background-color: #ffffff; */
     /* background: linear-gradient(#6600FF, #43007e); */
-
-
     /* background: linear-gradient(#43007e, #005d0e); */
-
     /* background: radial-gradient(#6600FF, #5600d7); */
 }
 
 * {
-    font-family: -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'ibm plex regular';
+    font-family: -apple-system, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 'ibm plex regular';
     max-width: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -508,7 +504,7 @@ section {
     align-items: center;
     flex-flow: column;
     background-image: linear-gradient(to bottom, #000000, rgb(46, 0, 144));
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
     /* border: solid green; */
 
 }
@@ -518,14 +514,39 @@ section {
     font-size: 2.1rem;
     letter-spacing: .1rem;
     margin-top: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: -1.8rem;
     /* border: solid red; */
 }
 
+/* .contact p {
+    margin: 0;
+    padding: 0;
+} */
+
 .contact-images {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 4rem; */
     border-radius: 5px;
     /* border: solid blue; */
+}
 
+#resume {
+    /* border: solid linear-gradient(to bottom, #0008ff, rgb(250, 4, 4)); */
+    width: 400px;
+    margin-top: 10rem;
+}
+
+
+.contact-cont img {
+    border-radius: 1rem;
+}
+
+.link-titles {
+    /* border: solid; */
+    color: #0059ff;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 4rem;
 }
