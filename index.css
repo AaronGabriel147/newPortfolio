@@ -500,5 +500,6 @@ section {
     #resume {
         width: 400px;
         margin-top: 7.5rem;
+        width: 100%;
     }
 }
