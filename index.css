@@ -19,32 +19,21 @@
     src: url(/Fonts/inter.ttf);
 }
 
-/* @font-face {
-    font-family: 'ibmITALIC';
-    src: url(/Fonts/IBMPLEXMONO-ITALIC.ttf);
-} */
-
-@font-face {
-    font-family: 'ibmTHIN';
-    src: url(/Fonts/IBMPLEXMONO-EXTRALIGHT.ttf);
-}
-
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,400&display=swap');
 
 
-/* body { */
-/* background-color: #4001a5; */
-/* background-color: #ffffff; */
-/* background: linear-gradient(#6600FF, #43007e); */
+body {
+    background-color: #000000;
+    /* background-color: #4001a5; */
+    /* background-color: #ffffff; */
+    /* background: linear-gradient(#6600FF, #43007e); */
 
 
-/* background: linear-gradient(#43007e, #005d0e); */
+    /* background: linear-gradient(#43007e, #005d0e); */
 
-
-
-/* background: radial-gradient(#6600FF, #5600d7); */
-/* } */
+    /* background: radial-gradient(#6600FF, #5600d7); */
+}
 
 * {
     font-family: -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'ibm plex regular';
@@ -280,12 +269,6 @@ audio {
     width: 18rem;
 }
 
-/* .italic { */
-/* font-style: italic; */
-/* font-family: ibmITALIC; */
-/* font-family: 'IBM Plex Mono', monospace; */
-/* } */
-
 .green {
     color: rgb(0, 255, 0);
     font-family: inter;
@@ -315,9 +298,10 @@ audio {
 
 .curly {
     font-family: ibm;
-    font-size: 3rem;
+    font-size: 2.6rem;
     padding-top: 2rem;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    /* border: solid; */
 }
 
 .projects {
@@ -391,7 +375,7 @@ h2 {
     font-size: 1.5rem;
     /* font-family: ibmITALIC; */
     font-family: 'IBM Plex Mono', monospace;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 500;
 }
 
@@ -407,16 +391,31 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #005d0e, rgb(11, 1, 14));
+    background-image: linear-gradient(to bottom, #005d0e, rgb(0, 0, 0));
 }
 
 .me {
-    padding: 5rem;
+    margin-top: 10rem;
+    padding: 2rem;
     /* border: #43007e solid; */
-    width: .1rem;
+    width: 20rem;
 }
-
 
 section {
     background: linear-gradient(#43007e, #005d0e);
+}
+
+
+
+.about {
+    font-family: ibm;
+    font-size: 2.1rem;
+    letter-spacing: .1rem;
+    margin-top: 9.3rem;
+}
+
+.about-paragraph {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 12rem;
+    /* border: #ffffff solid; */
 }
