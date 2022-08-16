@@ -508,7 +508,9 @@ section {
     align-items: center;
     flex-flow: column;
     background-image: linear-gradient(to bottom, #000000, rgb(46, 0, 144));
-    padding-bottom: 50rem;
+    padding-bottom: 10rem;
+    /* border: solid green; */
+
 }
 
 .contact {
@@ -517,10 +519,13 @@ section {
     letter-spacing: .1rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
+    /* border: solid red; */
 }
 
 .contact-images {
-    margin: 2rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
     border-radius: 5px;
+    /* border: solid blue; */
+
 }
