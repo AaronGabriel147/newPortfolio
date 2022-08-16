@@ -487,15 +487,15 @@ section {
         font-family: ibm;
         font-size: 1.9rem;
         letter-spacing: .1rem;
-        margin-top: .3rem;
+        margin-top: 0;
         /* border: solid; */
     }
 
 
     .me {
-        margin-top: 4rem;
-        padding: 3rem;
+        margin-top: 2rem;
+        /* padding: 4rem; */
         /* border: #43007e solid; */
-        width: 20rem;
+        width: 15rem;
     }
 }
