@@ -517,3 +517,9 @@ section {
     letter-spacing: .1rem;
     margin-top: 5rem;
 }
+
+.contact-images {
+    margin: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+}
