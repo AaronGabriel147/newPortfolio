@@ -124,7 +124,7 @@ h1 {
     font-family: inter;
     letter-spacing: 0.05em;
     margin-bottom: 9rem;
-    background: linear-gradient(1000deg, #ffffff6f 0.03%, #ffffff99 100%);
+    background: linear-gradient(1000deg, #ffffff3d 0.03%, #ffffff50 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -157,22 +157,16 @@ h2 {
 }
 
 h1 {
-    /* color: red; */
     /* border: solid; */
     font-size: 5vw;
     font-family: inter;
     letter-spacing: .03em;
-    background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
+    background: linear-gradient(1000deg, #ffffff37 0.03%, #ffffff58 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
 }
-
-
-
-
-/* ___ Home Background ___ */
 
 .video-header-container {
     position: relative;
@@ -200,7 +194,6 @@ h1 {
     left: 0;
 }
 
-
 .overlay {
     position: absolute;
     height: 100%;
@@ -210,9 +203,6 @@ h1 {
     background: rgba(66, 51, 144, 0.517);
     overflow: hidden;
 }
-
-
-/* ______GIF's_______ */
 
 .gif-cont {
     display: flex;
@@ -227,7 +217,6 @@ h1 {
     justify-content: center;
     width: 100%;
     /* border: #ffffff solid; */
-    /* margin-bottom: 10rem; */
 }
 
 .gif {
@@ -247,7 +236,6 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
 
 .audio-cont {
     margin: 1rem;
@@ -277,7 +265,6 @@ audio {
     color: rgb(255, 165, 0);
     font-family: inter;
     stroke: #ffffff;
-
 }
 
 .red {
@@ -285,8 +272,6 @@ audio {
     font-family: inter;
     stroke: #ffffff;
 }
-
-
 
 .curly {
     font-family: ibm;
@@ -301,48 +286,6 @@ audio {
     font-size: 2.1rem;
     letter-spacing: .1rem;
 }
-
-
-
-/* Delete this after I know it does not break other sections.  */
-/* @media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 12vw;
-        font-family: poppins;
-        letter-spacing: .03em;
-        background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
-    }
-
-    .projects {
-        font-family: ibm;
-        font-size: 1.9rem;
-        letter-spacing: .1rem;
-    }
-
-    .audio-cont {
-        margin: .5rem;
-        border: coral solid 3px; 
-        display: flex;
-        justify-content: center;
-    }
-
-    audio {
-        height: 1.5rem;
-        width: 7rem
-    }
-
-    .curly {
-        font-family: ibm;
-        font-size: 2.5rem;
-        padding-top: 2rem;
-        color: rgb(255, 255, 255)
-    }
-} */
-
 
 .link-cont {
     display: flex;
@@ -419,10 +362,12 @@ section {
 /* MOBILE */
 @media only screen and (max-width: 500px) {
     h1 {
+        /* border: solid;
+        color: red; */
         font-size: 12vw;
         font-family: poppins;
         letter-spacing: .03em;
-        background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
+        background: linear-gradient(1000deg, #ffffff0c 0.03%, #ffffff34 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -458,14 +403,18 @@ section {
 
 @media only screen and (max-width: 800px) {
     h1 {
+        /* border: solid; */
         font-size: 15vw;
         font-family: inter;
         letter-spacing: .03em;
-        background: linear-gradient(1000deg, #ffffff94 0.03%, #ffffff99 100%);
+        background: linear-gradient(1000deg, #ffffff3b 0.03%, #ffffff50 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        transform: perspective(300px) rotateX(-15deg) skew(-12deg, 1.2deg);
+        transform: perspective(300px) rotateX(-15deg) skew(-15deg, 1.2deg);
+
+        /* transform: perspective(300px) rotateX(344deg) skew(338deg, 1deg); */
+
     }
 
     .about-cont {
@@ -514,14 +463,10 @@ section {
     font-size: 2.1rem;
     letter-spacing: .1rem;
     margin-top: 5rem;
-    margin-bottom: -1.8rem;
+    margin-bottom: -1.8.rem;
     /* border: solid red; */
 }
 
-/* .contact p {
-    margin: 0;
-    padding: 0;
-} */
 
 .contact-images {
     /* margin-top: 2rem; */
