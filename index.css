@@ -502,4 +502,8 @@ section {
         margin-top: 7.5rem;
         width: 100%;
     }
+
+    #resume img {
+        border-radius: 0;
+    }
 }
